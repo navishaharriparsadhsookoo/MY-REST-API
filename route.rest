@@ -1,0 +1,15 @@
+GET http://localhost:3000/subscribers
+
+###
+
+Send Request
+GET http://localhost:3000/subscribers/15
+
+###
+Send Request
+POST  http://localhost:3000/subscribers
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "YouTube Channel"
+}
